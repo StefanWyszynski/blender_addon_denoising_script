@@ -4,11 +4,11 @@
 
 Current version restrictions:
 
-1. animation frame must have width and height divided by 2 - for an example 2, 4, 6, 8 and so on (another example ok resolution will be 1280x720, but neither 1279x720 nor 1280x719)
+1. animation frame has to have width and height divided by 2 - for example 2, 4, 6, 8 and so on (another example of valid resolution will be 1280x720, but neither 1279x720 nor 1280x719)
 
-2. the plugin may not work on Linux or other systems than windows (I have only tried on windows)
+2. the plugin may not work correctly on Linux or other systems than windows (I have only tried it on windows)
 
-3. rendering output have to be one of the following:
+3. The rendering output has to be one of the following:
 * "AVI_RAW" (this is preferred option),
 * "FFmpeg video" - AVI container with codec H.264 and lossless quality (I haven't tried to use other quality options),
 *  PNG (require an FFMPEG installed, but all frames will be connected to AVI file and then it will be processed as input for denoising,
@@ -30,43 +30,43 @@ and
 
 C:\AviSynth\plugins
 
-- install Avisynth plugins and copy to Avisynth\plugins dir	
+- install Avisynth plugins and copy to Avisynth\plugins dir    
 
-https://dl.dropboxusercontent.com/u/26042452/avi/plugins.zip	
+https://dl.dropboxusercontent.com/u/26042452/avi/plugins.zip    
 
 - install VirtualDub (used by script to convert video if you want to)
 
-https://sourceforge.net/projects/virtualdub/	
+https://sourceforge.net/projects/virtualdub/    
 
 add path to system environment path:
 
 for example
 C:\VirtualDub-1.10.4
 
-- install Microsoft Visual C++ 2010 SP1 Redistributable Package (x86). Needed for some plugins	
+- install Microsoft Visual C++ 2010 SP1 Redistributable Package (x86). Needed for some plugins    
 
 https://www.microsoft.com/en-us/download/details.aspx?id=8328
 
-ADITIONAL SOFTWARE HELPFULL BUT NOT REALLY NEEDED (addon will work without it, but it won't be fully functional)
+ADDITIONAL SOFTWARE HELPFULL BUT NOT REALLY NEEDED (addon will work without it, but it won't be fully functional)
 
-- install avsPmod (used by script to display video preview end edit script)	
+- install avsPmod (used by script to display video preview end edit script)    
 
-https://github.com/AvsPmod/AvsPmod/releases	
+https://github.com/AvsPmod/AvsPmod/releases    
 
 for example
 C:\AvsPmod_v2.5.1\AvsPmod\
 C:\AvsPmod_v2.5.1\AvsPmod\tools
 
-- install FFmpeg (used by the script to automatically convert input video to output - if you want to)	
+- install FFmpeg (used by the script to automatically convert input video to output - if you want to)    
 
 https://ffmpeg.zeranoe.com/builds/
 
 for example
 C:\ffmpeg-3.2.2-win32\bin
 
-- install k-lite codecs pack (helpfull codecs needed for many things )	
+- install k-lite codecs pack (helpfull codecs needed for many things )    
 
-https://www.codecguide.com/download_kl.htm	
+https://www.codecguide.com/download_kl.htm    
 
 If you won't download avsPmod you can't generate movies by it, same as FFmpeg. 
 But you can use VirtualDub which was recommended for downloading. 
@@ -78,7 +78,7 @@ MvTools plugins for AviSynth
 
 http://avisynth.nl/index.php/MVTools
 
-SmartSmootherHQ plugin for AviSynth	
+SmartSmootherHQ plugin for AviSynth    
 
 http://rationalqm.us/hiq/smoothhiq.html
 
